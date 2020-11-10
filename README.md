@@ -20,12 +20,13 @@ Most implementations of Mask-RCNN are very complex and hard to read, and this re
 ```
 torch>=1.4
 torchvision>=0.4
+opencv-python==4.1.2.30
 albumentations
 pillow
 timm
 tensorboardX
 easydict
-opencv-python==4.1.2.30
+fvcore
 ```
 
 # Dataset
