@@ -4,7 +4,7 @@ A simple Mask-Cascade-RCNN implementation. **Not perfect, only for learning and 
 
 > Paper:
 >
-> [Masr RCNN](http://cn.arxiv.org/abs/1703.06870v3)  
+> [Mask RCNN](http://cn.arxiv.org/abs/1703.06870v3)  
 > [Cascade RCNN](https://arxiv.org/abs/1712.00726)
 
 
@@ -17,10 +17,10 @@ Most implementations of Mask-RCNN are very complex and hard to read, and this re
 
 # How to use
 * If you want to train this model, you can easily start by modifying ```config.py```and using ```python train.py```.
-* If you want to use trained weights, here is a checkpoint with only a simple train without tuning, but it's a little bit bigger (1.1gb, ResNet-101 as backbone). *Note the modification of the checkpoint file path in the demo code.*
+* If you want to use trained weights, [here](https://drive.google.com/file/d/1HDR6IeBPF-pVDV8wnGr3btnz3zS3VyOM/view?usp=sharing) is a checkpoint with only a simple train without tuning, but it's a little bit bigger (1.1gb, ResNet-101 as backbone). *Note the modification of the checkpoint file path in the demo code.*
 * Refer to ```demo.py``` for the test.
 
-If you want to use your **custom dataset**, please refer [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py) to write your own code.
+If you want to train your **custom dataset**, please refer [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py) to write your own dataset code.
 
 # Environment
 
