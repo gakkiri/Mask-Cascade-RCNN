@@ -128,10 +128,3 @@ class WSGISDDataset(Dataset):
         return batched_inputs
 
 
-if __name__ == '__main__':
-    ds = WSGISDDataset(root='/Users/taimingfu/Documents/datasets/wgisd')
-    from torch.utils.data import DataLoader
-
-    dl = DataLoader(ds, batch_size=2, collate_fn=ds.collate_fn)
-
-    batch = next(iter(dl))
