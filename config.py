@@ -21,7 +21,6 @@ cfg.NUM_WORKERS = 8
 cfg.RESIZE = (800, 1280)
 
 # backbone
-# other backbone network's parameters will be added later, or ask me directly.
 cfg.BACKBONE_DEPTH = 101
 cfg.BACKBONE_OUTPUT_SHAPE = {
     'res2': ShapeSpec(channels=256, height=None, width=None, stride=4),
