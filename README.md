@@ -15,6 +15,13 @@ The purpose of implementing this code is to comb the knowledge system of Mask-RC
 
 Most implementations of Mask-RCNN are very complex and hard to read, and this repo, without the need for compilation and complex installation, is very handy. The code structure was a reference to [Detectron2](https://github.com/facebookresearch/detectron2), and it was very easy to run on WINDOWS and LINUX.
 
+# How to use
+* If you want to train this model, you can easily start by modifying ```config.py```and using ```python train.py```.
+* If you want to use existing weights, here is a checkpoint with only a simple reference, But it's a little bit bigger (1.1gb, ResNet-101 as backbone). *Note the modification of the checkpoint file path in the demo code.*
+* Refer to ```demo.py``` for the reasoning process.
+
+If you want to use your **custom dataset**, please refer to write your own code [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py).
+
 # Environment
 
 ```
