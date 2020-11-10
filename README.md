@@ -11,7 +11,7 @@ A simple Mask-Cascade-RCNN implementation.
 
 # Motivation
 
-The purpose of implementing this code is to comb the knowledge system of mask-RCNN and Cascade -RCNN, and make the code readable and easy for others to learn. 
+The purpose of implementing this code is to comb the knowledge system of Mask-RCNN and Cascade-RCNN, and make the code readable and easy for others to learn. 
 
 Most implementations of Mask-RCNN are very complex and hard to read, and this repo, without the need for compilation and complex installation, is very handy. The code structure was a reference to [Detectron2](https://github.com/facebookresearch/detectron2), and it was very easy to run on WINDOWS and LINUX.
 
