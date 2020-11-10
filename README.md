@@ -20,7 +20,7 @@ Most implementations of Mask-RCNN are very complex and hard to read, and this re
 * If you want to use existing weights, here is a checkpoint with only a simple reference, But it's a little bit bigger (1.1gb, ResNet-101 as backbone). *Note the modification of the checkpoint file path in the demo code.*
 * Refer to ```demo.py``` for the reasoning process.
 
-If you want to use your **custom dataset**, please refer to write your own code [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py).
+If you want to use your **custom dataset**, please refer [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py) to write your own code.
 
 # Environment
 
