@@ -50,9 +50,6 @@ class WSGISDDataset(Dataset):
         with open(opj(root, f'{mode}_masked.txt')) as f:
             self.samples = f.read().split('\n')
 
-        with open(opj(root, f'test_masked.txt')) as f:
-            self.samples += f.read().split('\n')
-
         self.samples = np.array(self.samples)
         keep = np.ones(len(self.samples))
         for i in range(len(self.samples)):
