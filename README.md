@@ -18,7 +18,7 @@ Most implementations of Mask-RCNN are very complex and hard to read, and this re
 # How to use
 * If you want to train this model, you can easily start by modifying ```config.py```and using ```python train.py```.
 * If you want to use trained weights, here is a checkpoint with only a simple train without tuning, but it's a little bit bigger (1.1gb, ResNet-101 as backbone). *Note the modification of the checkpoint file path in the demo code.*
-* Refer to ```demo.py``` for the reasoning process.
+* Refer to ```demo.py``` for the test.
 
 If you want to use your **custom dataset**, please refer [here](https://github.com/gakkiri/Mask-Cascade-RCNN/blob/master/dataset/wgisd_dataset.py) to write your own code.
 
