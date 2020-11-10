@@ -92,9 +92,9 @@ def train(cfg):
         info = f'[RESULT]: Train. Epoch: {epoch:02d}, summary_loss: {summary_loss.avg:.3f}, time: {(time.time() - t):.3f}, '
         print(info)
 
-        summary_loss = val_one_epoch(model, val_dl)
-        info = f'[EVAL]: Train. Epoch: {epoch:02d}, summary_loss: {summary_loss.avg:.3f}, time: {(time.time() - t):.3f}, '
-        print(info)
+        # summary_loss = val_one_epoch(model, val_dl)
+        # info = f'[EVAL]: Train. Epoch: {epoch:02d}, summary_loss: {summary_loss.avg:.3f}, time: {(time.time() - t):.3f}, '
+        # print(info)
         
         scheduler.step(summary_loss.avg)
         if summary_loss.avg < best_summary_loss:
