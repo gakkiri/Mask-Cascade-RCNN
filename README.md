@@ -1,6 +1,6 @@
 # Mask-Cascade-RCNN
 
-A simple Mask-Cascade-RCNN implementation.  
+A simple Mask-Cascade-RCNN implementation. **Not perfect, only for learning and reference.**
 
 > Paper:
 >
